@@ -17,16 +17,6 @@
 .manrope{
   font-family: "Manrope", sans-serif;
 }
-.bg-paper-img{
-  background-image: url(./assets/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 </style>
 <script>
     tailwind.config = {
@@ -48,18 +38,18 @@
       <!-- Navbar -->
     <div class="navbar">
         <div class="navbar-start">
-            <a class="btn btn-ghost text-3xl font-[800] flex items-center">
+            <a class="btn btn-ghost text-3xl font-[800] flex items-center hover:text-rose-700 duration-300 easy-in-out">
                  <i class="fa-solid fa-arrow-right text-l  p-5  -rotate-45 bg-lime-400 h-7 w-7 rounded-full flex justify-center items-center"></i>Rinterio
             </a>
           <!-- </div> -->
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 text-lg">
-            <li class="hover:text-lime-800 duration-300 easy-in-out font-[700]"><a>Home</a></li>
-            <li class="hover:text-lime-800 duration-300 easy-in-out"><a>Services</a></li>
-            <li class="hover:text-lime-800 duration-300 easy-in-out"><a>Portfolio</a></li>
-            <li class="hover:text-lime-800 duration-300 easy-in-out"><a>Blog</a></li>
-            <li class="hover:text-lime-800 duration-300 easy-in-out"><a>Contact Us</a></li>
+            <li class="hover:text-red-800 duration-300 easy-in-out font-[700]"><a>Home</a></li>
+            <li class="hover:text-red-800 duration-300 easy-in-out"><a>Services</a></li>
+            <li class="hover:text-red-800 duration-300 easy-in-out"><a>Portfolio</a></li>
+            <li class="hover:text-red-800 duration-300 easy-in-out"><a>Blog</a></li>
+            <li class="hover:text-red-800 duration-300 easy-in-out"><a>Contact Us</a></li>
           </ul>
         </div>
         <div class="navbar-end ">
@@ -67,7 +57,7 @@
        <i class="fa-solid fa-magnifying-glass p-3 bg-white text-gray-600  rounded-full border-2 cursor-pointer"></i>
        <i class="fa-solid fa-cart-shopping p-3 bg-white text-gray-600 rounded-full border-2 cursor-pointer"></i>
       </div>
-        <div class="hidden sm:flex"><a class="btn text-xl font-[800] bg-lime-400 rounded-full ml-2">Book Consult
+        <div class="hidden sm:flex"><a class="btn text-xl font-[800] bg-lime-400 hover:text-rose-700 duration-300 easy-in-out rounded-full ml-2">Book Consult
             <i class="fa-solid fa-arrow-right text-l  -rotate-45 bg-black text-white font-[600] rounded-full h-7 w-7 p-4 flex justify-center items-center "></i></a>
           </div>
         <!-- Hamburger -->
@@ -283,11 +273,24 @@
     
       
     </main>
-     <!-- MAIN SECTION STARTS -->
+     <!-- MAIN SECTION ENDS -->
     <!-- FOOTER SECTION STARTS -->
-    <footer>
-
+    <footer class="footer footer-center bg-black text-base-content rounded p-10">
+      <a class="btn btn-ghost text-3xl text-white font-[800] flex items-center hover:text-rose-700 duration-300 easy-in-out">
+        <i class="fa-solid fa-arrow-right text-l  p-5  -rotate-45 bg-lime-400 h-7 w-7 rounded-full flex justify-center items-center"></i>Rinterio
+   </a>
+   <p class="text-base text-[#737373] font-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, aliquam! Dolore sint quis deleniti dolores eveniet cum magni odio doloremque!</p>
+      <nav class="grid lg:grid-flow-col lg:gap-20 text-base text-[#737373] font-semibold">
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">Services</a>
+        <a class="link link-hover">Portfolio</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <div class="sm:flex"><a class="btn text-xl font-[800] text-white bg-lime-400 hover:text-rose-700 duration-300 easy-in-out rounded-full border-none ml-2">Book Consult
+        <i class="fa-solid fa-arrow-right text-l  -rotate-45 bg-black text-white font-[600] rounded-full h-7 w-7 p-4 flex justify-center items-center "></i></a>
+      </div>
     </footer>
-     <!-- FOOTER SECTION STARTS -->
+     <!-- FOOTER SECTION ENDS -->
 </body>
 </html>
